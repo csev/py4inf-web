@@ -30,7 +30,7 @@ for (message_id, message) in messages.items():
 # pick the top schools
 orgs = sorted(sendorgs, key=sendorgs.get, reverse=True)
 orgs = orgs[:10]
-print "Top 10 Oranizations"
+print "Top 10 Organizations"
 print orgs
 # orgs = ['total'] + orgs
 
@@ -51,16 +51,17 @@ for (message_id, message) in messages.items():
     counts[tkey] = counts.get(tkey,0) + 1
     
 months.sort()
-# print counts
-# print months
+print counts
+print months
 
-fhand = open('gline.jsonp','w')
+fhand = open('gline.js','w')
 fhand.write("gline = [ ['Year'")
 for org in orgs:
     fhand.write(",'"+org+"'")
 fhand.write("]")
 
-for month in months[1:-1]:
+# for month in months[1:-1]:
+for month in months:
     fhand.write(",\n['"+month+"'")
     for org in orgs:
         key = (month, org)
@@ -70,4 +71,4 @@ for month in months[1:-1]:
 
 fhand.write("\n];\n")
 
-print "Output written to gline.jsonp"
+print "Output written to gline.js"

@@ -1,3 +1,7 @@
+content.sqlite
+gline.js
+gword.js
+
 *.pyc
 code.zip
 code/*.zip
