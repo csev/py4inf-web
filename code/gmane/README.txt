@@ -35,17 +35,12 @@ Mac: python gmane.py
 Win: gmane.py 
 
 How many messages:10
-http://mbox.dr-chuck.net/sakai.devel/51410/51411 9460
-    nealcaidin@sakaifoundation.org 2013-04-05T12:37:27-04:00 re: [building sakai] testing common cartridge
-http://mbox.dr-chuck.net/sakai.devel/51411/51412 3379
-    samuelgutierrezjimenez@gmail.com 2013-04-06T03:30:11-07:00 re: [building sakai] melete 2.9 oracle issue (w/ possible fix)
-http://mbox.dr-chuck.net/sakai.devel/51412/51413 9903
-    da1@vt.edu 2013-04-05T15:58:51-04:00 [building sakai] melete 2.9 oracle issue (w/ possible fix)
-http://mbox.dr-chuck.net/sakai.devel/51413/51414 349265
-    m.shedid@elraed-it.com 2013-04-07T11:19:40+03:00 [building sakai] setup development enviroment
-http://mbox.dr-chuck.net/sakai.devel/51414/51415 3481
-    samuelgutierrezjimenez@gmail.com 2013-04-07T02:31:16-07:00 re: [building sakai] setup development enviroment
-http://mbox.dr-chuck.net/sakai.devel/51415/51416 0
+http://mbox.dr-chuck.net/sakai.devel/5/6 9443
+    john@caret.cam.ac.uk 2005-12-09T13:32:29+00:00 re: lms/vle rants/comments
+http://mbox.dr-chuck.net/sakai.devel/6/7 3586
+    s-githens@northwestern.edu 2005-12-09T13:32:31-06:00 re: sakaiportallogin and presense
+http://mbox.dr-chuck.net/sakai.devel/7/8 10600
+    john@caret.cam.ac.uk 2005-12-09T13:42:24+00:00 re: lms/vle rants/comments
 
 Does not start with From 
 
