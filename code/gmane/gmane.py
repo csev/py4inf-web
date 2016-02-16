@@ -102,8 +102,8 @@ while True:
     url = baseurl + str(start) + '/' + str(start + 1)
 
     try:
-	# Deal with SSL certificate anomalies Python > 2.7
-	# scontext = ssl.SSLContext(ssl.PROTOCOL_TLSv1)
+        # Deal with SSL certificate anomalies Python > 2.7
+	    # scontext = ssl.SSLContext(ssl.PROTOCOL_TLSv1)
         # document = urllib.urlopen(url, context=scontext)
 
         document = urllib.urlopen(url)
@@ -118,7 +118,7 @@ while True:
         break
     except:
         print "Unable to retrieve or parse page",url
-	print sys.exc_info()[0]
+        print sys.exc_info()[0]
         break
 
     print url,len(text)
@@ -178,7 +178,7 @@ while True:
 
     # Only commit every 50th record
     if (many % 50) == 0 : conn.commit() 
-    time.sleep(1)
+    # time.sleep(1)
 
 conn.commit()
 cur.close()
