@@ -10,6 +10,9 @@
 <div style="float: right; width:300px; padding: 5px;">
 <iframe width="300" height="169" src="//www.youtube.com/embed/UQVK-dsU7-Y" frameborder="0" allowfullscreen></iframe>
 </div>
+    <p><b>New:</b> The <a href="http://www.py4e.com/">Python 3 version</a> of the book and course material is available at <a href="http://www.py4e.com/">www.py4e.com</a>.  This site is maintained for those who want to continue to learn
+Python 2.
+    </p>
 <p>
 The goal of this site is to provide a set of materials in support of my
 <a href="book.php">Python for Informatics: Exploring Information</a> book

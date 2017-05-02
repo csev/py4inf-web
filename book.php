@@ -10,7 +10,7 @@
 <iframe	
 height="1800" width="100%" frameborder="0" marginwidth="0"
 marginheight="0" scrolling="auto"
-src="http://www.pythonlearn.com/book.htm">
+src="book.htm">
 </iframe>
 </div>
 <?php include("footer.php"); ?>
